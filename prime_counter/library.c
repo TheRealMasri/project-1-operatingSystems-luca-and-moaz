@@ -9,3 +9,5 @@ int main() {
     printf("please enter a number: \n");
     scanf("%d", &input);
 }
+
+
