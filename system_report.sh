@@ -2,8 +2,8 @@
 # System Resource Analyzer
 # Usage: ./system_report.sh <NUM_PROCESSES> <OUTPUT_FILE>
 
-process = "$1"
-output = "$2"
+process="$1"
+output="$2"
 
 
 #date
