@@ -1,4 +1,4 @@
-#include "library.h"
+#include "prime_counter.h"
 #include <stdio.h>
 #include <pthread.h>
 
