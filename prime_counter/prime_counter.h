@@ -1,6 +1,0 @@
-#ifndef PRIME_COUNTER_LIBRARY_H
-#define PRIME_COUNTER_LIBRARY_H
-
-void hello(void);
-
-#endif // PRIME_COUNTER_LIBRARY_H
