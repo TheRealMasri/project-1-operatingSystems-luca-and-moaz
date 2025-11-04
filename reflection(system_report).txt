@@ -6,6 +6,3 @@
 2- > redirects stdout to a file and truncates/creates the file (overwrite). >> redirects stdout and appends to the file (creates if missing).
 
 3- Use cron (crontab) for hourly runs; on macOS you can also use launchd/launchctl. Example crontab entry:
-
-(prime_counter.c) reflection answers:
-

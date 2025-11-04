@@ -1,0 +1,19 @@
+(prime_counter.c) reflection answers:
+
+1- Removing the mutex
+    -Causes data races on the shared counter: concurrent increments can be lost or interleaved,
+producing wrong counts and non‑deterministic results.
+    -In C this is undefined behavior; it can yield incorrect values, crashes, or other surprising effects.
+
+2- Why multi-threading is not always faster
+    -Thread creation and synchronization add overhead.
+    -Lock contention or serialized regions can negate parallelism.
+    -Cache coherence and false sharing degrade performance.
+    -Limited CPU cores or memory bandwidth mean more threads
+won't help.
+    -Poor load balancing or heavy synchronization can make it
+slower than a single thread.
+
+3-One real example where threads are useful
+    -A GUI application: use worker threads for long computations or I/O
+so the UI thread stays responsive while work executes in parallel.
